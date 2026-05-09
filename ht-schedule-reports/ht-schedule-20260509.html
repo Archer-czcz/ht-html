@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HT 团队下周资源投入排期</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:#F3F4F6;color:#1F2937;padding:20px}
+.c{max-width:1100px;margin:0 auto}
+h1{font-size:1.5rem;margin-bottom:4px}
+.sub{color:#6B7280;font-size:.875rem;margin-bottom:24px}
+.scard{background:white;border-radius:12px;padding:20px 24px;margin-bottom:24px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.scard h2{font-size:1rem;margin-bottom:12px;color:#374151}
+.sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.sb{text-align:center;padding:12px;border-radius:8px}
+.sb .n{font-size:1.5rem;font-weight:700}
+.sb .l{font-size:.75rem;color:#6B7280;margin-top:4px}
+.stab{width:100%;border-collapse:collapse;font-size:.875rem;margin-top:16px}
+.stab th{text-align:left;padding:10px 12px;border-bottom:2px solid #E5E7EB;color:#6B7280;font-weight:500}
+.stab td{padding:10px 12px;border-bottom:1px solid #F3F4F6}
+.stab .gt{background:#1F2937;color:white;font-weight:600}
+.stab .gt td{padding:12px}
+.card{background:white;border-radius:12px;margin-bottom:20px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.hdr{padding:16px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.hdr h2{font-size:1.05rem}
+.meta{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.tag{display:inline-block;padding:2px 10px;border-radius:999px;font-size:.75rem}
+.ttag{background:#FEF3C7;color:#92400E}
+.ttag strong{font-size:.9rem}
+.card table{width:100%;border-collapse:collapse;font-size:.85rem}
+.card thead th{text-align:left;padding:10px 20px;background:#F9FAFB;border-bottom:1px solid #E5E7EB;color:#6B7280;font-weight:500}
+.card tbody td{padding:10px 20px;border-bottom:1px solid #F9FAFB;vertical-align:top}
+.pn{font-weight:500;white-space:nowrap}
+.pv{white-space:nowrap;font-weight:600;color:#059669}
+.pv.zero{color:#9CA3AF;font-weight:400}
+.pd{color:#4B5563}
+.rz{background:#F9FAFB}
+.rz:hover{background:#F3F4F6}
+.card tbody tr:hover{background:#F9FAFB}
+.ft{text-align:center;color:#9CA3AF;font-size:.75rem;margin:24px 0}
+</style>
+</head>
+<body>
+<div class="c">
+  <h1>📊 HT 团队资源投入排期</h1>
+  <p class="sub">排期周期: <strong>05/11 - 05/17</strong>（下周） · 查询时间: 2026-05-09 18:45 · 估分插值·求和</p>
+
+  <div class="scard">
+    <h2>📋 全团队汇总</h2>
+    <div class="sgrid">
+      <div class="sb" style="background:#EEF2FF;"><div class="n" style="color:#4F46E5;">139</div><div class="l">总人数</div></div>
+      <div class="sb" style="background:#ECFDF5;"><div class="n" style="color:#059669;">116</div><div class="l">有估分</div></div>
+      <div class="sb" style="background:#FEF2F2;"><div class="n" style="color:#DC2626;">23</div><div class="l">未填写估分</div></div>
+      <div class="sb" style="background:#FFFBEB;"><div class="n" style="color:#D97706;">521.9</div><div class="l">总计 pd</div></div>
+    </div>
+    <table class="stab">
+      <thead><tr><th>团队</th><th>人数</th><th>有估分</th><th>未填</th><th>总计 pd</th></tr></thead>
+      <tbody>
+        <tr><td style="border-left:3px solid #4F46E5;padding-left:12px;">市场增长研发部</td><td>19</td><td>16</td><td>3</td><td style="font-weight:600;">63.6</td></tr><tr><td style="border-left:3px solid #0891B2;padding-left:12px;">教学服务研发部</td><td>26</td><td>24</td><td>2</td><td style="font-weight:600;">111.1</td></tr><tr><td style="border-left:3px solid #7C3AED;padding-left:12px;">学习中台研发部</td><td>9</td><td>9</td><td>0</td><td style="font-weight:600;">43.8</td></tr><tr><td style="border-left:3px solid #DC2626;padding-left:12px;">大数据部</td><td>14</td><td>6</td><td>8</td><td style="font-weight:600;">24.4</td></tr><tr><td style="border-left:3px solid #D97706;padding-left:12px;">前端开发部</td><td>21</td><td>15</td><td>6</td><td style="font-weight:600;">71.6</td></tr><tr><td style="border-left:3px solid #059669;padding-left:12px;">基础建设团队</td><td>3</td><td>3</td><td>0</td><td style="font-weight:600;">11.2</td></tr><tr><td style="border-left:3px solid #2563EB;padding-left:12px;">课程测试团队</td><td>13</td><td>12</td><td>1</td><td style="font-weight:600;">50.5</td></tr><tr><td style="border-left:3px solid #DB2777;padding-left:12px;">业务测试团队</td><td>34</td><td>31</td><td>3</td><td style="font-weight:600;">145.7</td></tr>
+        <tr class="gt"><td>合计</td><td>139</td><td>116</td><td>23</td><td>521.9pd</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  
+<div class="card">
+  <div class="hdr" style="border-left:4px solid #4F46E5;background:#EEF2FF;">
+    <h2>市场增长研发部</h2>
+    <div class="meta">
+      <span class="tag" style="background:#6B7280;color:white;">负责人: 任兴建</span>
+      <span class="tag" style="background:#4F46E5;color:white;">19人</span>
+      <span class="tag" style="background:#10B981;color:white;">16人有估分</span>
+      <span class="tag" style="background:#9CA3AF;color:white;">3人未填</span>
+      <span class="tag ttag">总计 <strong>63.6pd</strong></span>
+    </div>
+  </div>
+  <table><thead><tr><th>人员</th><th>估分</th><th>需求明细</th></tr></thead><tbody><tr><td class="pn">刘珩</td><td class="pv">5.0pd</td><td class="pd">二段法【公益课领课链接增加问卷弹窗功能】（3.0pd）；公益课AI托管依赖变量系统化（2.0pd）</td></tr><tr><td class="pn">危露</td><td class="pv">5.0pd</td><td class="pd">趣C履约小赛事（5.0pd）</td></tr><tr><td class="pn">吕迪迪</td><td class="pv">5.0pd</td><td class="pd">异常报备H5界面（2.0pd）；监考系统，录屏回看（3.0pd）</td></tr><tr><td class="pn">周长顺</td><td class="pv">5.0pd</td><td class="pd">合同负债拆分（5.0pd）</td></tr><tr><td class="pn">张新征</td><td class="pv">5.0pd</td><td class="pd">核力后台-广告回传监控逻辑调整（2.0pd）；统一导入订单可分批触发短信（3.0pd）</td></tr><tr><td class="pn">汪正中</td><td class="pv">5.0pd</td><td class="pd">全额退费期配置优化（2.0pd）；拆单支付查询及退费优化（3.0pd）</td></tr><tr><td class="pn">王云龙</td><td class="pv">5.0pd</td><td class="pd">AI托管企云宝通道切主账号（1.0pd）；【产研】进校原生领公益课小程序（4.0pd）</td></tr><tr><td class="pn">马家豪</td><td class="pv">4.8pd</td><td class="pd">【转介绍】算法硬件需求（3.0pd）；商店点选链路优化2.0（1.0pd）；小程序 Taro 接入（0.8pd）</td></tr><tr><td class="pn">Vern（丰从越）</td><td class="pv">4.7pd</td><td class="pd">MOT| 硬件配置化搭建（4.7pd）</td></tr><tr><td class="pn">王振南</td><td class="pv">4.3pd</td><td class="pd">matrix第一波全链路部署（3.3pd）；日志优化精简（1.0pd）</td></tr><tr><td class="pn">张红强</td><td class="pv">4.0pd</td><td class="pd">【实物】crm地址快递「问题反馈」改造（2.0pd）；售后工单系统与实物系统对接（2.0pd）</td></tr><tr><td class="pn">唐彬彬</td><td class="pv">3.9pd</td><td class="pd">MOT| 硬件配置化搭建（3.5pd）；市场线上噪音治理（0.4pd）</td></tr><tr><td class="pn">南晴</td><td class="pv">2.6pd</td><td class="pd">IDE支持上传单个大样例进行测试（2.5pd）；市场侧长期查问题 导数据 刷数据（0.1pd）</td></tr><tr><td class="pn">潘圆圆</td><td class="pv">2.0pd</td><td class="pd">乐高二期-交易台账（2.0pd）</td></tr><tr><td class="pn">方子祺</td><td class="pv">1.5pd</td><td class="pd">【OJ 长期】日常维护（1.5pd）</td></tr><tr><td class="pn">吴哲</td><td class="pv">0.8pd</td><td class="pd">【OJ 长期】日常维护（0.8pd）</td></tr><tr class="rz"><td class="pn">Gaomin（黄高敏）</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">王鹏</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">覃京宁</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr></tbody></table>
+</div>
+<div class="card">
+  <div class="hdr" style="border-left:4px solid #0891B2;background:#ECFEFF;">
+    <h2>教学服务研发部</h2>
+    <div class="meta">
+      <span class="tag" style="background:#6B7280;color:white;">负责人: 何绍富</span>
+      <span class="tag" style="background:#0891B2;color:white;">26人</span>
+      <span class="tag" style="background:#10B981;color:white;">24人有估分</span>
+      <span class="tag" style="background:#9CA3AF;color:white;">2人未填</span>
+      <span class="tag ttag">总计 <strong>111.1pd</strong></span>
+    </div>
+  </div>
+  <table><thead><tr><th>人员</th><th>估分</th><th>需求明细</th></tr></thead><tbody><tr><td class="pn">胡宽</td><td class="pv">6.0pd</td><td class="pd">V2.6.2【鲁班】迁移备课系统（5.3pd）；V2.6.5【鲁班】备课-unit维度IM互动消息配置（0.7pd）</td></tr><tr><td class="pn">杨灯</td><td class="pv">5.4pd</td><td class="pd">matrix第一波全链路部署（3.0pd）；课导绩效V0.2（支持课导查看绩效数据&发起申诉）（2.4pd）</td></tr><tr><td class="pn">刘关强</td><td class="pv">5.0pd</td><td class="pd">V1.1.5.26【鲁班】小灶课轮次配置（3.0pd）；V2.6.5【鲁班】备课-unit维度IM互动消息配置（2.0pd）</td></tr><tr><td class="pn">刘洋</td><td class="pv">5.0pd</td><td class="pd">企微自动化发送与运营MVP(账号与设备管理)（5.0pd）</td></tr><tr><td class="pn">刘超</td><td class="pv">5.0pd</td><td class="pd">企微自动化发送与运营MVP(账号与设备管理)（4.0pd）；消息系统数据看板优化（1.0pd）</td></tr><tr><td class="pn">吕宏伟</td><td class="pv">5.0pd</td><td class="pd">V1.2.25 鲁班工作台-沟通指标需求（3.0pd）；V1.6.6【鲁班】工作台性能优化（2.0pd）</td></tr><tr><td class="pn">唐佳</td><td class="pv">5.0pd</td><td class="pd">V1.1.5.26【鲁班】小灶课轮次配置（4.0pd）；V2.1.6【鲁班】沟通时间轴优化-增加筛选+数据统计（1.0pd）</td></tr><tr><td class="pn">散宝峰</td><td class="pv">5.0pd</td><td class="pd">围棋辅导端增加连麦（2.0pd）；围棋迁移辅导端（3.0pd）</td></tr><tr><td class="pn">李波</td><td class="pv">5.0pd</td><td class="pd">Al质检- 新场景扩展（3.0pd）；质检系统3月迭代-P1需求打包（2.0pd）</td></tr><tr><td class="pn">杨洪</td><td class="pv">5.0pd</td><td class="pd">AI参与度评估体系（2.0pd）；供应链平台增加批量选择（2.0pd）；校历灰度计算逻辑迭代（1.0pd）</td></tr><tr><td class="pn">王亮</td><td class="pv">5.0pd</td><td class="pd">matrix第一波全链路部署（5.0pd）</td></tr><tr><td class="pn">许子辉</td><td class="pv">5.0pd</td><td class="pd">V2.21【鲁班】用户分层：信息提取与风险预测（5.0pd）</td></tr><tr><td class="pn">韩炜伟</td><td class="pv">5.0pd</td><td class="pd">AI参与度评估体系（2.0pd）；激励-辅导端发放金币（3.0pd）</td></tr><tr><td class="pn">修图尸</td><td class="pv">4.9pd</td><td class="pd">Al质检- 新场景扩展（1.0pd）；py3结业证书配置需求（0.5pd）；质检系统3月迭代-P1需求打包（3.4pd）</td></tr><tr><td class="pn">李茂全</td><td class="pv">4.9pd</td><td class="pd">V1.1.5.23【鲁班】学习行为（2.4pd）；V2.6.3【鲁班】学课页面迁移（2.5pd）</td></tr><tr><td class="pn">徐铚濠</td><td class="pv">4.8pd</td><td class="pd">TMK企微托管能力1期（4.0pd）；V1.1.5.23【鲁班】学习行为（0.8pd）</td></tr><tr><td class="pn">周欢</td><td class="pv">4.5pd</td><td class="pd">TMK切换加微页（1.0pd）；matrix第一波全链路部署（2.0pd）；教学服务部相关服务CLI接入（1.5pd）</td></tr><tr><td class="pn">任义然</td><td class="pv">4.4pd</td><td class="pd">课导绩效V0.2（支持课导查看绩效数据&发起申诉）（4.4pd）</td></tr><tr><td class="pn">李琪</td><td class="pv">4.4pd</td><td class="pd">V2.6.2【鲁班】迁移备课系统（2.4pd）；企微自动化发送与运营MVP(账号与设备管理)（2.0pd）</td></tr><tr><td class="pn">哑铃</td><td class="pv">4.0pd</td><td class="pd">现场管理3.2：电访数据指标体验优化（4.0pd）</td></tr><tr><td class="pn">卢俊</td><td class="pv">3.9pd</td><td class="pd">产能看板0.1版本（2.9pd）；历史页面迁移：鲁班系统迁入班级管理（1.0pd）</td></tr><tr><td class="pn">李廷忠</td><td class="pv">3.7pd</td><td class="pd">围棋辅导端增加连麦（1.0pd）；教学服务告警及日志集中治理（0.7pd）；编程年课回访报告-单课笔记（1.0pd）；编程年课回访文案优化（1.0pd）</td></tr><tr><td class="pn">施欧文</td><td class="pv">2.7pd</td><td class="pd">V2.6.2【鲁班】迁移备课系统（1.8pd）；【教务系统】转班（新）同老师转班优化&扩科囤课复课优化（0.9pd）</td></tr><tr><td class="pn">刘仕杰</td><td class="pv">2.5pd</td><td class="pd">AI Coding harness模块总结（0.6pd）；【教务系统】转班（新）同老师转班优化&扩科囤课复课优化（0.9pd）；【沟通中心】timeline1期验收优化点-deadeline520（1.0pd）</td></tr><tr class="rz"><td class="pn">何金标</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">张稳稳</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr></tbody></table>
+</div>
+<div class="card">
+  <div class="hdr" style="border-left:4px solid #7C3AED;background:#F5F3FF;">
+    <h2>学习中台研发部</h2>
+    <div class="meta">
+      <span class="tag" style="background:#6B7280;color:white;">负责人: 杨帆</span>
+      <span class="tag" style="background:#7C3AED;color:white;">9人</span>
+      <span class="tag" style="background:#10B981;color:white;">9人有估分</span>
+      <span class="tag" style="background:#9CA3AF;color:white;">0人未填</span>
+      <span class="tag ttag">总计 <strong>43.8pd</strong></span>
+    </div>
+  </div>
+  <table><thead><tr><th>人员</th><th>估分</th><th>需求明细</th></tr></thead><tbody><tr><td class="pn">王智磊</td><td class="pv">8.0pd</td><td class="pd">V2.1.5【鲁班】课导增加金币数据字段+抽屉内增加金币数据tab（2.0pd）；【激励】服务端支持老师发金币配置&校验（3.0pd）；【激励】虚拟形象相册&老师点赞（3.0pd）</td></tr><tr><td class="pn">王许光</td><td class="pv">6.0pd</td><td class="pd">图灵管理后台（5.0pd）；异常报备H5界面（1.0pd）</td></tr><tr><td class="pn">解路连</td><td class="pv">5.3pd</td><td class="pd">IDE支持上传单个大样例进行测试（2.5pd）；【OJ数据源统一】莫顿历史数据迁移至OJ题库（2.8pd）</td></tr><tr><td class="pn">赵浩博</td><td class="pv">5.1pd</td><td class="pd">【2期】OJ数据源统一 客户端老版本OJ兼容（老版本C++）（1.1pd）；【激励】刷莫顿试题难度标签（0.8pd）；合同负债拆分（3.0pd）；学习中台 - 日常技术类需求 - 2026 - H1（0.2pd）</td></tr><tr><td class="pn">孙伟博</td><td class="pv">5.0pd</td><td class="pd">图灵管理后台（5.0pd）</td></tr><tr><td class="pn">尤振宇</td><td class="pv">5.0pd</td><td class="pd">¥ddl5月中丨大班非正课直播支持看学生名字+取消开播限制（2.0pd）；替换蓝端回放的功能-刷数据（3.0pd）</td></tr><tr><td class="pn">黄道巍</td><td class="pv">4.9pd</td><td class="pd">3299年课硬件迭代产品需求-录课包需求（3.0pd）；学习中台 - 日常技术类需求 - 2026 - H1（1.9pd）</td></tr><tr><td class="pn">葛铭顺</td><td class="pv">2.3pd</td><td class="pd">【围棋】AI课单课学习报告“分享海报”知识点统计去重（0.3pd）；学习中台 - 日常技术类需求 - 2026 - H1（0.9pd）；小s代码块读题一期（1.1pd）</td></tr><tr><td class="pn">罗军</td><td class="pv">2.2pd</td><td class="pd">学习中台 - 日常技术类需求 - 2026 - H1（1.8pd）；学习报告切换学情数据源CPP（0.3pd）；客户端主界面课程推荐逻辑优化（0.1pd）</td></tr></tbody></table>
+</div>
+<div class="card">
+  <div class="hdr" style="border-left:4px solid #DC2626;background:#FEF2F2;">
+    <h2>大数据部</h2>
+    <div class="meta">
+      <span class="tag" style="background:#6B7280;color:white;">负责人: 易龙</span>
+      <span class="tag" style="background:#DC2626;color:white;">14人</span>
+      <span class="tag" style="background:#10B981;color:white;">6人有估分</span>
+      <span class="tag" style="background:#9CA3AF;color:white;">8人未填</span>
+      <span class="tag ttag">总计 <strong>24.4pd</strong></span>
+    </div>
+  </div>
+  <table><thead><tr><th>人员</th><th>估分</th><th>需求明细</th></tr></thead><tbody><tr><td class="pn">刘栋</td><td class="pv">6.4pd</td><td class="pd">AI渲染页面本地统一部署（1.4pd）；基建（5.0pd）</td></tr><tr><td class="pn">石梦瑶</td><td class="pv">5.0pd</td><td class="pd">进校-繁星看板数据接口（5.0pd）</td></tr><tr><td class="pn">赵飞</td><td class="pv">5.0pd</td><td class="pd">赛事_等级考试明细看板班级归属逻辑优化（1.0pd）；赛事考务-数据需求（4.0pd）</td></tr><tr><td class="pn">李慧</td><td class="pv">4.4pd</td><td class="pd">1-两课趣味C3区分高低年级展示需求&续报追标逻辑变更（ddl：5/14）（4.4pd）</td></tr><tr><td class="pn">朱慧华</td><td class="pv">3.2pd</td><td class="pd">2025财年IPO审计数据需求（1.2pd）；IPO系统审计_2025财年（1.4pd）；课消预测模型-二期（0.6pd）</td></tr><tr><td class="pn">于世龙</td><td class="pv">0.4pd</td><td class="pd">251009大数据切换登录口径需求（0.3pd）；ModelGate（0.1pd）</td></tr><tr class="rz"><td class="pn">任欣源</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">卢博斌</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">周明</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">王宝良</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">郝杨熠</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">郭磊</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">闫腾飞</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">雷鸣</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr></tbody></table>
+</div>
+<div class="card">
+  <div class="hdr" style="border-left:4px solid #D97706;background:#FFFBEB;">
+    <h2>前端开发部</h2>
+    <div class="meta">
+      <span class="tag" style="background:#6B7280;color:white;">负责人: 张辰</span>
+      <span class="tag" style="background:#D97706;color:white;">21人</span>
+      <span class="tag" style="background:#10B981;color:white;">15人有估分</span>
+      <span class="tag" style="background:#9CA3AF;color:white;">6人未填</span>
+      <span class="tag ttag">总计 <strong>71.6pd</strong></span>
+    </div>
+  </div>
+  <table><thead><tr><th>人员</th><th>估分</th><th>需求明细</th></tr></thead><tbody><tr><td class="pn">李海波</td><td class="pv">7.0pd</td><td class="pd">【2期】OJ数据源统一 客户端老版本OJ兼容（老版本C++）（2.0pd）；雪球直播/CDN html相关迁移部署&合规迁移（5.0pd）</td></tr><tr><td class="pn">刘栋</td><td class="pv">6.4pd</td><td class="pd">AI渲染页面本地统一部署（1.4pd）；基建（5.0pd）</td></tr><tr><td class="pn">杨灯</td><td class="pv">5.4pd</td><td class="pd">matrix第一波全链路部署（3.0pd）；课导绩效V0.2（支持课导查看绩效数据&发起申诉）（2.4pd）</td></tr><tr><td class="pn">刘关强</td><td class="pv">5.0pd</td><td class="pd">V1.1.5.26【鲁班】小灶课轮次配置（3.0pd）；V2.6.5【鲁班】备课-unit维度IM互动消息配置（2.0pd）</td></tr><tr><td class="pn">吕迪迪</td><td class="pv">5.0pd</td><td class="pd">异常报备H5界面（2.0pd）；监考系统，录屏回看（3.0pd）</td></tr><tr><td class="pn">周长顺</td><td class="pv">5.0pd</td><td class="pd">合同负债拆分（5.0pd）</td></tr><tr><td class="pn">散宝峰</td><td class="pv">5.0pd</td><td class="pd">围棋辅导端增加连麦（2.0pd）；围棋迁移辅导端（3.0pd）</td></tr><tr><td class="pn">杨洪</td><td class="pv">5.0pd</td><td class="pd">AI参与度评估体系（2.0pd）；供应链平台增加批量选择（2.0pd）；校历灰度计算逻辑迭代（1.0pd）</td></tr><tr><td class="pn">李茂全</td><td class="pv">4.9pd</td><td class="pd">V1.1.5.23【鲁班】学习行为（2.4pd）；V2.6.3【鲁班】学课页面迁移（2.5pd）</td></tr><tr><td class="pn">马家豪</td><td class="pv">4.8pd</td><td class="pd">【转介绍】算法硬件需求（3.0pd）；商店点选链路优化2.0（1.0pd）；小程序 Taro 接入（0.8pd）</td></tr><tr><td class="pn">李思奇</td><td class="pv">4.5pd</td><td class="pd">【2期】OJ数据源统一 客户端老版本OJ兼容（老版本C++）（2.9pd）；图灵管理后台（1.6pd）</td></tr><tr><td class="pn">李琪</td><td class="pv">4.4pd</td><td class="pd">V2.6.2【鲁班】迁移备课系统（2.4pd）；企微自动化发送与运营MVP(账号与设备管理)（2.0pd）</td></tr><tr><td class="pn">唐彬彬</td><td class="pv">3.9pd</td><td class="pd">MOT| 硬件配置化搭建（3.5pd）；市场线上噪音治理（0.4pd）</td></tr><tr><td class="pn">施欧文</td><td class="pv">2.7pd</td><td class="pd">V2.6.2【鲁班】迁移备课系统（1.8pd）；【教务系统】转班（新）同老师转班优化&扩科囤课复课优化（0.9pd）</td></tr><tr><td class="pn">石应佳</td><td class="pv">2.6pd</td><td class="pd">【课中UI优化】课中UI项目--业务反馈优化调整（2.0pd）；在线题库新增“人工智能”学科（0.6pd）</td></tr><tr class="rz"><td class="pn">Gaomin（黄高敏）</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">何金标</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">张稳稳</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">王鹏</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">田亚楠</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">覃京宁</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr></tbody></table>
+</div>
+<div class="card">
+  <div class="hdr" style="border-left:4px solid #059669;background:#ECFDF5;">
+    <h2>基础建设团队</h2>
+    <div class="meta">
+      <span class="tag" style="background:#6B7280;color:white;">负责人: Young Zen （任洋洋）</span>
+      <span class="tag" style="background:#059669;color:white;">3人</span>
+      <span class="tag" style="background:#10B981;color:white;">3人有估分</span>
+      <span class="tag" style="background:#9CA3AF;color:white;">0人未填</span>
+      <span class="tag ttag">总计 <strong>11.2pd</strong></span>
+    </div>
+  </div>
+  <table><thead><tr><th>人员</th><th>估分</th><th>需求明细</th></tr></thead><tbody><tr><td class="pn">曹昊东</td><td class="pv">5.0pd</td><td class="pd">海外接口梳理&业务熟悉（5.0pd）</td></tr><tr><td class="pn">李昊</td><td class="pv">4.3pd</td><td class="pd">open-claw skill调研（4.3pd）</td></tr><tr><td class="pn">高航</td><td class="pv">1.9pd</td><td class="pd">技术支持AI助手（1.9pd）</td></tr></tbody></table>
+</div>
+<div class="card">
+  <div class="hdr" style="border-left:4px solid #2563EB;background:#EFF6FF;">
+    <h2>课程测试团队</h2>
+    <div class="meta">
+      <span class="tag" style="background:#6B7280;color:white;">负责人: 齐秀平</span>
+      <span class="tag" style="background:#2563EB;color:white;">13人</span>
+      <span class="tag" style="background:#10B981;color:white;">12人有估分</span>
+      <span class="tag" style="background:#9CA3AF;color:white;">1人未填</span>
+      <span class="tag ttag">总计 <strong>50.5pd</strong></span>
+    </div>
+  </div>
+  <table><thead><tr><th>人员</th><th>估分</th><th>需求明细</th></tr></thead><tbody><tr><td class="pn">唐佳敏</td><td class="pv">5.6pd</td><td class="pd">海外buggy ultra-- python部分（story1）（0.6pd）；科特-图形化编程硬件套装（远航版）3.0  02024742  303套 YWCG-20260309-0001（2.0pd）；科特-图形化编程硬件套装（远航版）3.0  02024742  7000套 YWCG-20260305-0001（3.0pd）</td></tr><tr><td class="pn">李玲</td><td class="pv">5.0pd</td><td class="pd">C3-L18-3迭代（1.0pd）；C4-L21-1迭代（1.0pd）；YCL四级题库-摸底测（1.0pd）；【测课QA】已确认排期的测课任务（暂无业务方meego）（2.0pd）</td></tr><tr><td class="pn">栾鹏飞</td><td class="pv">5.0pd</td><td class="pd">Python体验课测试（2.0pd）；基因项目课程稳定性测试（2.0pd）；趣C 5277 年级分支版 变 主干 的qa测试（1.0pd）</td></tr><tr><td class="pn">石呈山</td><td class="pv">5.0pd</td><td class="pd">【图形化年课】（迭代）L3-5-小S迭代（1.0pd）；【图形化年课】（迭代）L4-1-小S迭代（2.0pd）；【图形化年课】（迭代）L7-1-S算法（2.0pd）</td></tr><tr><td class="pn">蔡晓东</td><td class="pv">5.0pd</td><td class="pd">一周两课-Python（领航版）-2.0  02024233  377套 YWCG-20260309-0001（2.0pd）；硬件课教具--Python人工智能--初探版-2.1  02024463 1859套 YWCG-20260309-0001（3.0pd）</td></tr><tr><td class="pn">武靖</td><td class="pv">4.8pd</td><td class="pd">【课程自动化case】26年-每日巡检（2.8pd）；【课程自动化case】3.2.38版本自动化回归测试（2.0pd）</td></tr><tr><td class="pn">刘凤军</td><td class="pv">4.4pd</td><td class="pd">C++年课-L10-4-全向车-硬件部分迭代(A1)（0.5pd）；C++年课-L10-4-课前直播-迭代（0.5pd）；【3D剧情课QC3阶段】C++年课-高年级-L14-3（3.0pd）；【测课QA】已确认排期的测课任务（暂无业务方meego）（0.2pd）；春3期次PY1题目难度标签课程迭代（0.2pd）</td></tr><tr><td class="pn">李灿宇</td><td class="pv">4.2pd</td><td class="pd">L3-2春1测试课前直播测试（1.0pd）；【3D剧情课QC3阶段】C++年课-低年级-L15-4（3.0pd）；【测课QA】已确认排期的测课任务（暂无业务方meego）（0.2pd）</td></tr><tr><td class="pn">冯立娜</td><td class="pv">3.9pd</td><td class="pd">【3D剧情课QC3阶段】C++年课-高年级-L14-4（3.0pd）；【课程自动化case】2026年5月课程选代case更新（0.9pd）</td></tr><tr><td class="pn">李鹏远</td><td class="pv">3.6pd</td><td class="pd">【3D剧情课QC3阶段】C++年课-高年级-L14-2（3.0pd）；【课程自动化case】2026年5月课程选代case更新（0.6pd）</td></tr><tr><td class="pn">岳嘉晨</td><td class="pv">2.0pd</td><td class="pd">【课程自动化case】3.2.38版本自动化回归测试（2.0pd）</td></tr><tr><td class="pn">苏昆鹏</td><td class="pv">2.0pd</td><td class="pd">【课程自动化case】3.2.38版本自动化回归测试（2.0pd）</td></tr><tr class="rz"><td class="pn">朱子扬</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr></tbody></table>
+</div>
+<div class="card">
+  <div class="hdr" style="border-left:4px solid #DB2777;background:#FDF2F8;">
+    <h2>业务测试团队</h2>
+    <div class="meta">
+      <span class="tag" style="background:#6B7280;color:white;">负责人: 任宇航</span>
+      <span class="tag" style="background:#DB2777;color:white;">34人</span>
+      <span class="tag" style="background:#10B981;color:white;">31人有估分</span>
+      <span class="tag" style="background:#9CA3AF;color:white;">3人未填</span>
+      <span class="tag ttag">总计 <strong>145.7pd</strong></span>
+    </div>
+  </div>
+  <table><thead><tr><th>人员</th><th>估分</th><th>需求明细</th></tr></thead><tbody><tr><td class="pn">吴晗玉</td><td class="pv">7.4pd</td><td class="pd">【作业】批量批改作业标记（1.0pd）；【实物】crm地址快递「问题反馈」改造（2.0pd）；客服发起审批-功能优化（1.0pd）；课导绩效V0.2（支持课导查看绩效数据&发起申诉）（3.4pd）</td></tr><tr><td class="pn">秦琦雯</td><td class="pv">5.7pd</td><td class="pd">【激励】客户端支持定向发放商品奖励（3.0pd）；小程序支持新硬件体验课小核主控板（2.7pd）</td></tr><tr><td class="pn">刘俊钰</td><td class="pv">5.2pd</td><td class="pd">OJ新版农场荣誉墙（5.0pd）；【UI自动化】OJ业务 2026/3-2026/8（0.2pd）</td></tr><tr><td class="pn">崔王宁</td><td class="pv">5.2pd</td><td class="pd">【U3D发版-20260511】V3.2.38&V1.2.38合端&蓝端、V1.0.25教师端、合端线下包（2.0pd）；【U3D技术需求】直播教师端H5组件兼容能力升级（3.2pd）</td></tr><tr><td class="pn">魏群龙</td><td class="pv">5.2pd</td><td class="pd">2026文档编写&技术基建（1.4pd）；tmk企微自动继承消息提醒（3.0pd）；【教务系统】转班（新）同老师转班优化&扩科囤课复课优化（0.8pd）</td></tr><tr><td class="pn">代康成</td><td class="pv">5.0pd</td><td class="pd">现场管理3.2：电访数据指标体验优化（4.0pd）；调课详情页&教师档案带班资格&带班分组优化（1.0pd）</td></tr><tr><td class="pn">何静芳</td><td class="pv">5.0pd</td><td class="pd">【U3D发版-20260511】V3.2.38&V1.2.38合端&蓝端、V1.0.25教师端、合端线下包（2.0pd）；学生端启动页面支持配置声音/图片（1.0pd）；录播课金币功能屏蔽体验课（2.0pd）</td></tr><tr><td class="pn">安剑龙</td><td class="pv">5.0pd</td><td class="pd">图灵管理后台（3.0pd）；白名单赛AI自动评阅作品需求（1.0pd）；赛事系统-同步考务数据（1.0pd）</td></tr><tr><td class="pn">张娜</td><td class="pv">5.0pd</td><td class="pd">打字练习主页改版+护眼（5.0pd）</td></tr><tr><td class="pn">张蕾</td><td class="pv">5.0pd</td><td class="pd">【接口自动化】26.3~8月售卖侧服务接口完善（1.0pd）；商店点选链路优化2.0（1.0pd）；奖学金列表操作后页面展示逻辑优化（3.0pd）</td></tr><tr><td class="pn">李淑凤</td><td class="pv">5.0pd</td><td class="pd">【接口自动化】2026李淑凤3~8月新繁星系统，实验平台完善接口+场景（1.0pd）；【数据支持平台】易用小工具建设（2.0pd）；核力后台-广告回传监控逻辑调整（1.0pd）；渠道费用结算优化（1.0pd）</td></tr><tr><td class="pn">洪昊</td><td class="pv">5.0pd</td><td class="pd">【2期】OJ数据源统一 客户端老版本OJ兼容（老版本C++）（1.0pd）；【OJ数据源统一】莫顿历史数据迁移至OJ题库（0.5pd）；【热更】编辑级数据上报优化-增加每条action标识（1.5pd）；乐高课程模板功线上问题修复（2.0pd）</td></tr><tr><td class="pn">王慧娟</td><td class="pv">5.0pd</td><td class="pd">【接口自动化】学习过程+内容中心+消息推送接口自动化（2.0pd）；家长端 APP 支持显示智配占位班级企微二维码（1.0pd）；核桃编程家长端- iOS2.1.1（2.0pd）</td></tr><tr><td class="pn">祝旭辉</td><td class="pv">5.0pd</td><td class="pd">AIGC题目个性化生产/配置接入智慧教室（4.0pd）；【课程】智慧教室适配AIGC课程（1.0pd）</td></tr><tr><td class="pn">袁玉清</td><td class="pv">5.0pd</td><td class="pd">【U3D发版-20260511】V3.2.38&V1.2.38合端&蓝端、V1.0.25教师端、合端线下包（2.0pd）；客户端主界面课程推荐逻辑优化（1.0pd）；直播：保留投票数据（1.0pd）；辅导端支持H5关卡环节展示进度信息（1.0pd）</td></tr><tr><td class="pn">赵英浩</td><td class="pv">5.0pd</td><td class="pd">【沟通中心】小灶课Al分析-工程侧（5.0pd）</td></tr><tr><td class="pn">邱辉</td><td class="pv">5.0pd</td><td class="pd">【数据支持平台】
+BTC不同公益课学科快速领账号（3.0pd）；【课程】智慧教室适配AIGC课程（2.0pd）</td></tr><tr><td class="pn">陆禄</td><td class="pv">5.0pd</td><td class="pd">【转介绍】主态分层激励限制&客态门槛限制（5.0pd）</td></tr><tr><td class="pn">陈燕</td><td class="pv">5.0pd</td><td class="pd">【U3D发版-20260511】V3.2.38&V1.2.38合端&蓝端、V1.0.25教师端、合端线下包（2.0pd）；【直播后台】直播建班排课冲突检测（1.0pd）；音视频题多条件反馈提示（2.0pd）</td></tr><tr><td class="pn">高佳琦</td><td class="pv">5.0pd</td><td class="pd">【沟通中心】timeline1期验收优化点-deadeline520（2.0pd）；标签中台人群包打标优化（1.0pd）；现场管理：电访数据优化（有效应答、沟通用户数）（2.0pd）</td></tr><tr><td class="pn">钟宁</td><td class="pv">4.8pd</td><td class="pd">2026文档编写&技术基建（2.0pd）；V1.1.5.21【鲁班】小灶课重构（0.8pd）；V1.1.5.29【鲁班】小灶课迁移优化迭代（0.5pd）；【DDL5.14】围棋阶段学情报告支持转拆班场景（1.5pd）</td></tr><tr><td class="pn">余世淋</td><td class="pv">4.7pd</td><td class="pd">2026文档编写&技术基建（0.2pd）；CRM系统-续报结束45天用户自动继承（2.0pd）；TMK切换加微页（0.5pd）；供应链平台增加批量选择（1.0pd）；校历灰度计算逻辑迭代（1.0pd）</td></tr><tr><td class="pn">郑怡博</td><td class="pv">4.7pd</td><td class="pd">C++本地编译和调试服务（0.6pd）；OJ判题出错提示出错用例（3.0pd）；【接口自动化】组课服务中台接口自动化（0.6pd）；【激励】服务端支持老师发金币配置&校验（0.5pd）</td></tr><tr><td class="pn">金敏</td><td class="pv">4.7pd</td><td class="pd">2026文档编写&技术基建（0.7pd）；V1.1.5.23【鲁班】学习行为（3.0pd）；灵鉴增加报警（1.0pd）</td></tr><tr><td class="pn">黄雅林</td><td class="pv">4.2pd</td><td class="pd">2026文档编写&技术基建（1.2pd）；V2.6.2【鲁班】迁移备课系统（2.0pd）；围棋迁移辅导端（1.0pd）</td></tr><tr><td class="pn">马双源</td><td class="pv">4.1pd</td><td class="pd">5月其他业务基建（2.0pd）；小s代码块读题一期（2.1pd）</td></tr><tr><td class="pn">王云龙</td><td class="pv">4.0pd</td><td class="pd">【实物】crm地址快递「问题反馈」改造（1.0pd）；乐高二期-财务退款优化（2.0pd）；全额退费期配置优化（1.0pd）</td></tr><tr><td class="pn">任谯竹</td><td class="pv">3.8pd</td><td class="pd">【U3D发版-20260511】V3.2.38&V1.2.38合端&蓝端、V1.0.25教师端、合端线下包（3.0pd）；【UI自动化】扩科QA-202603~202608（0.8pd）</td></tr><tr><td class="pn">程飞</td><td class="pv">2.6pd</td><td class="pd">【围棋】AI课单课学习报告“分享海报”知识点统计去重（0.5pd）；回放相关权限整合（2.1pd）</td></tr><tr><td class="pn">钟义云</td><td class="pv">2.4pd</td><td class="pd">C++本地编译和调试服务（2.4pd）</td></tr><tr><td class="pn">贾萌</td><td class="pv">2.0pd</td><td class="pd">农场荣誉墙分享方案（2.0pd）</td></tr><tr class="rz"><td class="pn">刘金宇</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">梁剑</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr><tr class="rz"><td class="pn">金祥壮</td><td class="pv zero">0pd</td><td class="pd" style="color:#999;">未填写估分</td></tr></tbody></table>
+</div>
+
+  <p class="ft">HT 团队排期图表查询 · Powered by <code>meegle chart get</code></p>
+</div>
+</body>
+</html>
